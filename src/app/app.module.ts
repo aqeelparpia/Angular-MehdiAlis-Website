@@ -3,26 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
-import { GalleryComponent } from './gallery/gallery.component';
-import { ProtfolioComponent } from './protfolio/protfolio.component';
-import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent,
-    AboutComponent,
-    GalleryComponent,
-    ProtfolioComponent,
-    ContactComponent,
-    FooterComponent
+    FooterComponent,
+    routingComponents
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
