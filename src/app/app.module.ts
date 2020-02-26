@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { VideosComponent } from './videos/videos.component';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -13,11 +14,14 @@ import { VideosComponent } from './videos/videos.component';
     HeaderComponent,
     FooterComponent,
     routingComponents,
-    VideosComponent
+    VideosComponent,
+    SliderComponent
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
