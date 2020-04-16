@@ -1,5 +1,5 @@
 # MyApp
-This Project is currently being hosted on (https://mehdiali-a32e9.firebaseapp.com)
+This Project is temporarily being hosted on (https://mehdiali-a32e9.firebaseapp.com)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
